@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\App.xaml
-11407045341
+538182868
 
-19-1356964436
+232132925117
 197835749923
-MainWindow.xaml;
+CarAddWindow.xaml;CarsWindow.xaml;CarUpdateWindow.xaml;MainWindow.xaml;RentalsWindow.xaml;
 
-False
+True
 

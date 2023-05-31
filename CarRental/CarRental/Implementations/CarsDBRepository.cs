@@ -27,31 +27,48 @@ namespace CarRental.Implementations
                 Year = CarDTO.Year,
                 Color = CarDTO.Color, 
                 Rental_Rate = CarDTO.Rental_Rate,
-                Available = (byte)(CarDTO.Available?1:0)
+                Available = CarDTO.Available
             });
+            RentalContext.SaveChanges();
             return RentalContext.Cars.Any(xd => xd.Make == CarDTO.Make && xd.Model == CarDTO.Model);
         }
 
 
         public List<Cars> GetCars()
         {
+
             return RentalContext.Cars.ToList();
         }
 
         public bool RemoveCar(CarDTO CarDTO)
         {
-            var Car = RentalContext.Cars.Where(xd => xd.Make == CarDTO.Make && xd.Model == CarDTO.Model && xd.Year == CarDTO.Year && xd.Color == CarDTO.Color && xd.Rental_Rate == CarDTO.Rental_Rate && xd.Available == (byte)(CarDTO.Available ? 1 : 0)).SingleOrDefault();
+            var Car = RentalContext.Cars.Where(xd => xd.Make == CarDTO.Make && xd.Model == CarDTO.Model && xd.Year == CarDTO.Year && xd.Color == CarDTO.Color && xd.Rental_Rate == CarDTO.Rental_Rate && xd.Available == (CarDTO.Available)).SingleOrDefault();
             if(Car == null )
             {
                 return false;
             }
             RentalContext.Cars.Remove(Car);
+            RentalContext.SaveChanges();
             return true;
         }
 
         public bool UpdateCar(CarDTO CarDTO)
         {
-            throw new NotImplementedException();
+            var Car = RentalContext.Cars.Where(xd => xd.Make == CarDTO.Make && xd.Model == CarDTO.Model && xd.Year == CarDTO.Year && xd.Color == CarDTO.Color && xd.Rental_Rate == CarDTO.Rental_Rate && xd.Available == (CarDTO.Available)).SingleOrDefault();
+            if (Car == null)
+            {
+                return false;
+            }
+
+            Car.Make = CarDTO.Make;
+            Car.Model = CarDTO.Model;
+            Car.Year = CarDTO.Year;
+            Car.Color = CarDTO.Color;
+            Car.Rental_Rate = CarDTO.Rental_Rate;
+            Car.Available = (CarDTO.Available);
+
+            RentalContext.SaveChanges();
+            return true;
         }
 
     }

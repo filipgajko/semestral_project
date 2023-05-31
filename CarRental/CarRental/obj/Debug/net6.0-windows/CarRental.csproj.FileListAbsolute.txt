@@ -29,3 +29,11 @@ C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-wi
 C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarRental.pdb
 C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarRental.genruntimeconfig.cache
 C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\ref\CarRental.dll
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarsWindow.g.cs
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarsWindow.baml
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\RentalsWindow.g.cs
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\RentalsWindow.baml
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarAddWindow.g.cs
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarAddWindow.baml
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarUpdateWindow.g.cs
+C:\Users\filip\Desktop\semestral_project\CarRental\CarRental\obj\Debug\net6.0-windows\CarUpdateWindow.baml

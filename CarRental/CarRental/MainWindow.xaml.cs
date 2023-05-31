@@ -23,11 +23,27 @@ namespace CarRental
     {
         public MainWindow()
         {
-            //InitializeComponent();
-            var RentalContext = new RentalContext();
-            List<Customers> lista = RentalContext.customers.ToList();
+            InitializeComponent();
+            cars.Click += new RoutedEventHandler(Button_Click1);
+            rentals.Click += new RoutedEventHandler(Button_Click2);
+        }
 
-            foreach (Customers customer in lista) { }
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click1(object sender, RoutedEventArgs e)
+        {
+            CarsWindow carsWindow = new CarsWindow();
+            carsWindow.Show();
+            this.Close();
+        }
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            RentalsWindow rentalsWindow = new RentalsWindow();
+            rentalsWindow.Show();
+            this.Close();
         }
     }
 }

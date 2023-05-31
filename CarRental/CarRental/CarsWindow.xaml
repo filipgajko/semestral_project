@@ -1,0 +1,24 @@
+﻿<Window x:Class="CarRental.CarsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarRental"
+        mc:Ignorable="d"
+        Title="CarsWindow" Height="450" Width="800">
+    <Grid>
+        <ListView Name="carlist" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="428,74,10,92">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="CAR LIST" HorizontalAlignment="Left" Margin="590,31,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,0.421"/>
+        <Button Name="add" Content="ADD" HorizontalAlignment="Left" Margin="104,107,0,0" VerticalAlignment="Top" />
+        <Button Name="remove" Content="REMOVE" HorizontalAlignment="Left" Margin="104,147,0,0" VerticalAlignment="Top" />
+        <Button Name="back" Content="BACK" HorizontalAlignment="Left" Margin="104,187,0,0" VerticalAlignment="Top" Height="43" Width="46"/>
+        <Button x:Name="update" Content="UPDATE" HorizontalAlignment="Left" Margin="104,250,0,0" VerticalAlignment="Top" Height="43" Width="46"/>
+
+    </Grid>
+</Window>

@@ -15,6 +15,6 @@ public class Cars
     public string Model { get; set; }
     public int Year { get; set; }
     public string Color { get; set; }
-    public int Rental_Rate { get; set; }
-    public byte Available { get; set; }
+    public decimal Rental_Rate { get; set; }
+    public bool Available { get; set; }
 }
