@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="RentalsWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="back" Content="BACK" HorizontalAlignment="Left" Margin="137,199,0,0" VerticalAlignment="Top" Height="64" Width="66"/>
-        <TextBox HorizontalAlignment="Left" Margin="335,217,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Name="back" Content="RETURN" HorizontalAlignment="Left" Margin="362,153,0,0" VerticalAlignment="Top" Height="64" Width="66" Click="back_Click"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,272,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Maintenance" HorizontalAlignment="Left" Margin="333,82,0,0" VerticalAlignment="Top" FontSize="20"/>
 
     </Grid>
 </Window>

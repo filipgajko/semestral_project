@@ -8,19 +8,19 @@
         Title="CarUpdateWindow" Height="450" Width="800">
     <Grid>
 
-        <Label Content="Model" HorizontalAlignment="Left" Margin="36,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
-        <TextBox x:Name="model" HorizontalAlignment="Left" Margin="104,159,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
-        <Label Content="Color" HorizontalAlignment="Left" Margin="36,261,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
-        <TextBox x:Name="color" HorizontalAlignment="Left" Margin="104,265,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
-        <Label Content="Rental Rate" HorizontalAlignment="Left" Margin="20,311,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
-        <TextBox x:Name="rental_rate" HorizontalAlignment="Left" Margin="104,315,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
-        <Label Content="Available" HorizontalAlignment="Left" Margin="30,366,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.829,-1.636"/>
-        <CheckBox x:Name="available" Content="" HorizontalAlignment="Left" Margin="104,371,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="updatebutton" Content="Update" HorizontalAlignment="Left" Margin="154,371,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label Content="Make" HorizontalAlignment="Left" Margin="39,111,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
-        <TextBox x:Name="make" HorizontalAlignment="Left" Margin="104,119,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101" />
-        <Label Content="Year" HorizontalAlignment="Left" Margin="36,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="-1.567,1.623"/>
-        <TextBox x:Name="year" HorizontalAlignment="Left" Margin="104,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="101" />
+        <Label Content="Model" HorizontalAlignment="Left" Margin="332,146,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
+        <TextBox x:Name="model" HorizontalAlignment="Left" Margin="400,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Color" HorizontalAlignment="Left" Margin="332,252,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
+        <TextBox x:Name="color" HorizontalAlignment="Left" Margin="400,256,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Rental Rate" HorizontalAlignment="Left" Margin="316,302,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
+        <TextBox x:Name="rental_rate" HorizontalAlignment="Left" Margin="400,306,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Available" HorizontalAlignment="Left" Margin="326,357,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.829,-1.636"/>
+        <CheckBox x:Name="available" Content="" HorizontalAlignment="Left" Margin="400,362,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="updatebutton" Content="Update" HorizontalAlignment="Left" Margin="450,362,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="Make" HorizontalAlignment="Left" Margin="335,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
+        <TextBox x:Name="make" HorizontalAlignment="Left" Margin="400,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101" />
+        <Label Content="Year" HorizontalAlignment="Left" Margin="332,195,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
+        <TextBox x:Name="year" HorizontalAlignment="Left" Margin="400,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101" />
 
     </Grid>
 </Window>

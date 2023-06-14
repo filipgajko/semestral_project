@@ -7,18 +7,18 @@
         mc:Ignorable="d"
         Title="CarsWindow" Height="450" Width="800">
     <Grid>
-        <ListView Name="carlist" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="428,74,10,92">
+        <ListView Name="carlist" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="303,88,135,78">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Label Content="CAR LIST" HorizontalAlignment="Left" Margin="590,31,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,0.421"/>
-        <Button Name="add" Content="ADD" HorizontalAlignment="Left" Margin="104,107,0,0" VerticalAlignment="Top" />
-        <Button Name="remove" Content="REMOVE" HorizontalAlignment="Left" Margin="104,147,0,0" VerticalAlignment="Top" />
-        <Button Name="back" Content="BACK" HorizontalAlignment="Left" Margin="104,187,0,0" VerticalAlignment="Top" Height="43" Width="46"/>
-        <Button x:Name="update" Content="UPDATE" HorizontalAlignment="Left" Margin="104,250,0,0" VerticalAlignment="Top" Height="43" Width="46"/>
+        <Label Content="CARS LIST" HorizontalAlignment="Left" Margin="434,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,0.421" FontSize="20"/>
+        <Button Name="add" Content="ADD" HorizontalAlignment="Left" Margin="104,97,0,0" VerticalAlignment="Top" Width="50" Height="45" />
+        <Button Name="remove" Content="REMOVE" HorizontalAlignment="Left" Margin="104,163,0,0" VerticalAlignment="Top" Height="45" />
+        <Button Name="back" Content="BACK" HorizontalAlignment="Left" Margin="104,232,0,0" VerticalAlignment="Top" Height="45" Width="50"/>
+        <Button x:Name="update" Content="UPDATE" HorizontalAlignment="Left" Margin="104,297,0,0" VerticalAlignment="Top" Height="45" Width="50"/>
 
     </Grid>
 </Window>

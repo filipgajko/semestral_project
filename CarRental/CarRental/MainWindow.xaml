@@ -9,5 +9,6 @@
     <Grid>
         <Button Name="cars" Content="CARS" HorizontalAlignment="Left" Margin="197,0,0,0" VerticalAlignment="Center" Height="90" Width="126"/>
         <Button Name="rentals"  Content="RENTALS" HorizontalAlignment="Left" Margin="471,0,0,0" VerticalAlignment="Center" Height="90" Width="126"/>
+        <Label Content="CAR RENTAL APP" HorizontalAlignment="Left" Margin="323,108,0,0" VerticalAlignment="Top" Height="59" Width="168" FontSize="20" RenderTransformOrigin="0.518,-0.183"/>
     </Grid>
 </Window>

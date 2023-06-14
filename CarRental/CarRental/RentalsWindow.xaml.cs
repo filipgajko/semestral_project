@@ -31,5 +31,10 @@ namespace CarRental
             mainWindow.Show();
             this.Close();
         }
+
+        private void back_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

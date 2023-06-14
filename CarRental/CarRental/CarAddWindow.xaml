@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="CarAddWindow" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Margin="104,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
-        <Label Content="Make" HorizontalAlignment="Left" Margin="36,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
-        <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="400,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Make" HorizontalAlignment="Left" Margin="332,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
+        <Grid Margin="296,-30,-296,30">
             <TextBox HorizontalAlignment="Left" Margin="104,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
             <Label Content="Model" HorizontalAlignment="Left" Margin="36,166,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623"/>
             <TextBox Name="model" HorizontalAlignment="Left" Margin="104,170,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
@@ -26,9 +26,10 @@
                 <Label Content="Rental Rate" HorizontalAlignment="Left" Margin="20,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.567,1.623" Grid.Row="1"/>
                 <TextBox Name="rental_rate" HorizontalAlignment="Left" Margin="104,151,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101" Grid.Row="1"/>
                 <Label Content="Available" HorizontalAlignment="Left" Margin="30,202,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.829,-1.636"/>
-                <CheckBox Name="available" Content="" HorizontalAlignment="Left" Margin="104,207,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-                <Button Name="addbutton" Content="Add" HorizontalAlignment="Left" Margin="154,207,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click"/>
+                <CheckBox Name="available" Content="" HorizontalAlignment="Left" Margin="93,208,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                <Button Name="addbutton" Content="Add" HorizontalAlignment="Left" Margin="154,184,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click" Height="53" Width="51"/>
             </Grid>
         </Grid>
+        <Label Content="Add a CAR" HorizontalAlignment="Left" Margin="352,54,0,0" VerticalAlignment="Top" FontSize="20"/>
     </Grid>
 </Window>
